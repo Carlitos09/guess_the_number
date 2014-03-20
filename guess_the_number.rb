@@ -1,12 +1,12 @@
 puts "Welcome to the guessing game"
-secret_number = rand(1)
-puts "Take a guess between 0 through 70000000000"
+secret_number = rand(2)
+puts "Take a guess between 0 and 99999999999999999999999999999 ;)"
 guess = gets.chomp.to_i
-until guess == secret_number 
-  puts "Try again"
+until guess == secret_number
+  puts "Try again ;)"
   guess = gets.chomp.to_i
 end
-puts "CONGRATS"
+puts   "CONGRATS ;)"
 
 
 
